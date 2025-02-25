@@ -1,4 +1,4 @@
-# 🚀 AutoML Pipeline Project
+# 🚀 AutoML Pipeline Project for Classification Task
 
 This repository showcases an **Automated Machine Learning (AutoML) Pipeline** for a **classification task** (predicting **"Survived"**). It is designed to demonstrate end-to-end data science workflow automation, advanced ML techniques, and proficiency with key tools and libraries.
 
