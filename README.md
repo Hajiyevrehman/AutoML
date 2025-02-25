@@ -44,7 +44,7 @@ This repository showcases an **Automated Machine Learning (AutoML) Pipeline** fo
    ```
 
 2. **Place your raw data** in `data/raw/data.csv`  
-   - Ensure the dataset contains a column `Survived` (or a final column that will be renamed to `Survived`).
+   - Ensure the dataset contains a column `Survived`(or a final column that will be renamed to `Survived`). For your data just change name of your target with `Survived`.
 
 3. **Run the main script**:  
    ```bash
@@ -83,17 +83,10 @@ This repository showcases an **Automated Machine Learning (AutoML) Pipeline** fo
 - **Test Accuracy**: ~90%  
 - **F1-Score** and **ROC-AUC** metrics are also tracked in MLflow.
 
-These high scores might indicate overfitting or a well-separated dataset. Further regularization or data augmentation may be explored for real-world scenarios.
+My data was pretty limited and seperable so high scores are expected. 
 
 ---
 
-## 🔗 What is MLflow?
-
-**MLflow** is an open-source platform for managing the ML lifecycle, including:
-
-- **Experiment Tracking**: Logs parameters, metrics, artifacts, and model versions.
-- **Model Registry**: Centralizes model storage, versioning, and deployment.
-- **Reproducibility**: Tracks hyperparameters, code versions, and data.
 
 ### 🛠️ Using MLflow in This Project:
 
